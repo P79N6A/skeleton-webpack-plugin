@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "alwaysStrict": true,
+        "checkJs": true,
+        "lib": [
+            "ES5",
+            "ES6",
+            "ES7",
+            "ESNext"
+        ],
+        "module": "CommonJs",
+        "noEmitOnError": true,
+        "strict": true,
+        "outDir": "lib",
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
